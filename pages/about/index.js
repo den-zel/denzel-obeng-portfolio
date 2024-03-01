@@ -82,7 +82,7 @@ const About = () => {
             exit='hidden' 
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            3 years ago, I started learning UI design. Since then, I've helped and designed projects for individuals and startups, also collaborated with an agency to bring projects to life. I am a UI designer but however i am now learning about development. I made this portfolio site by myself lol! I am confident in my designs and work. At the moment i don't have enough knowledge about development. But i will get there soon!
+            3 years ago, I started learning UI design. Since then, I&apos;ve helped and designed projects for individuals and startups, also collaborated with an agency to bring projects to life. I am a UI designer but however i am now learning about development. I made this portfolio site by myself lol! I am confident in my designs and work. At the moment i don&apos;t have enough knowledge about development. But i will get there soon!
           </motion.p>
           <motion.div 
             variants={fadeIn('right', 0.6)} 
@@ -94,7 +94,7 @@ const About = () => {
             <div className='flex flex-1 xl:gap-x-6'>
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={3} duration={10} /> +
+                  <CountUp start={0} end={3} duration={10} /> &apos; +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   YEARS OF EXPERIENCE
@@ -102,7 +102,7 @@ const About = () => {
               </div>
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={250} duration={5} /> +
+                  <CountUp start={0} end={250} duration={5} /> &apos; +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   SATISFIED CLIENTS
@@ -110,7 +110,7 @@ const About = () => {
               </div>
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={6} duration={10} /> +
+                  <CountUp start={0} end={6} duration={10} /> &apos; +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   FINISHED PROJECTS
