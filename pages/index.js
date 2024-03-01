@@ -37,7 +37,9 @@ const Home = () => {
             exit='hidden' 
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet eu dolor fringilla vehicula. Aliquam tempor sem neque.
+            Welcome to my portfolio world, my name is Alan. A UI designer 
+            with over 3 years of experience in my field.I made this website myself lol, I tried. 
+            Anyway Feel free to roam and enjoy my world
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>
@@ -60,7 +62,7 @@ const Home = () => {
         <div className='bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0'>
         </div>
         {/* particles */}
-        <ParticlesContainer /> 
+        <ParticlesContainer />
         {/* avatar img */}
         <motion.div             
             variants={fadeIn('up', 0.5)} 
